@@ -49,3 +49,4 @@ config/deploy/*.rb
 
 # simplecov
 /doc/coverage
+.project

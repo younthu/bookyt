@@ -1,6 +1,7 @@
 # Settings
 # ========
-source 'https://rubygems.org'
+# source 'https://rubygems.org'
+source 'http://mirrors.aliyun.com/rubygems/'
 
 # Rails
 # =====
@@ -145,7 +146,7 @@ gem 'prawn_rails'
 # Raiffeisen BookingImport
 gem 'csv-mapper'
 
-gem 'mt940_parser', :git => 'http://github.com/CyTeam/mt940_parser.git', :require => 'mt940'
+gem 'mt940_parser', :git => 'https://github.com/CyTeam/mt940_parser.git', :require => 'mt940'
 
 # ESR support
 gem 'aasm'
